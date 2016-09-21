@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/minio/minio/pkg/objcache"
+	"github.com/yoyowallet/minio/pkg/objcache"
 	"os"
 )
 

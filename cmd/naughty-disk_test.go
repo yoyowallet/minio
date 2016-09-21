@@ -17,7 +17,7 @@
 package cmd
 
 import (
-	"github.com/minio/minio/pkg/disk"
+	"github.com/yoyowallet/minio/pkg/disk"
 	"sync"
 )
 

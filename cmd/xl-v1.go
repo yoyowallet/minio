@@ -21,8 +21,8 @@ import (
 	"sort"
 
 	"github.com/minio/minio-go/pkg/set"
-	"github.com/minio/minio/pkg/disk"
-	"github.com/minio/minio/pkg/objcache"
+	"github.com/yoyowallet/minio/pkg/disk"
+	"github.com/yoyowallet/minio/pkg/objcache"
 )
 
 // XL constants.

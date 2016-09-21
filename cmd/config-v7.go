@@ -20,7 +20,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/minio/minio/pkg/quick"
+	"github.com/yoyowallet/minio/pkg/quick"
 )
 
 // serverConfigV7 server configuration version '7'.
@@ -47,7 +47,13 @@ func initConfig() error {
 		// Initialize server config.
 		srvCfg := &serverConfigV7{}
 		srvCfg.Version = globalMinioConfigVersion
-		srvCfg.Region = "us-east-1"
+
+		region := os.Getenv("MINIO_REGION")
+		if region == "" {
+			region = "us-east-1"
+		}
+		srvCfg.Region = region
+
 		srvCfg.Credential = mustGenAccessKeys()
 
 		// Enable console logger by default on a fresh run.

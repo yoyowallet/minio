@@ -24,7 +24,7 @@ import (
 	"strings"
 
 	router "github.com/gorilla/mux"
-	"github.com/minio/minio/pkg/disk"
+	"github.com/yoyowallet/minio/pkg/disk"
 )
 
 // Storage server implements rpc primitives to facilitate exporting a

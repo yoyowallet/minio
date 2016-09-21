@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/minio/minio/pkg/quick"
+	"github.com/yoyowallet/minio/pkg/quick"
 )
 
 /////////////////// Config V1 ///////////////////

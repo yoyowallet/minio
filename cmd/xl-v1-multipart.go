@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/pkg/mimedb"
+	"github.com/yoyowallet/minio/pkg/mimedb"
 	"github.com/skyrings/skyring-common/tools/uuid"
 )
 

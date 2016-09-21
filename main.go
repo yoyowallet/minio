@@ -16,7 +16,7 @@
 
 package main
 
-import minio "github.com/minio/minio/cmd"
+import minio "github.com/yoyowallet/minio/cmd"
 
 func main() {
 	minio.Main()

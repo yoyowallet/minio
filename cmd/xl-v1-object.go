@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/pkg/bpool"
-	"github.com/minio/minio/pkg/mimedb"
-	"github.com/minio/minio/pkg/objcache"
+	"github.com/yoyowallet/minio/pkg/bpool"
+	"github.com/yoyowallet/minio/pkg/mimedb"
+	"github.com/yoyowallet/minio/pkg/objcache"
 )
 
 /// Object Operations
