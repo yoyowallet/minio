@@ -5,7 +5,7 @@ ENV ALLOW_CONTAINER_ROOT=1
 
 COPY . /go/src/app
 RUN \
-	apk add --no-cache git && \
+	apk add --no-cache bash git && \
 	go-wrapper download && \
 	go-wrapper install && \
 	mkdir -p /export/docker && \
